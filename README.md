@@ -1,20 +1,57 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# SDS1 - Interactive 3D Christmas Tree
 
-# Run and deploy your AI Studio app
+An interactive 3D Christmas tree web experience built with TypeScript, React, and Three.js.
 
-This contains everything you need to run your app locally.
+The project presents a responsive 3D scene with particle effects, camera interaction, and animated tree states. Users can interact with the scene to explore aggregated and dispersed particle effects.
 
-View your app in AI Studio: https://ai.studio/apps/drive/1X_dM8R6nA2fca8BLFc01Jmo7KyfQtAMq
+## Live Demo
+
+[Live Demo](https://kyoani55555.github.io/SDS1/)
+
+## Features
+
+- Interactive 3D Christmas tree scene
+- Particle aggregation and dispersion animation
+- Camera orbit and view interaction
+- Responsive layout for desktop and mobile devices
+- Web deployment through GitHub Pages
+
+## Tech Stack
+
+- TypeScript
+- React 19
+- Vite
+- Three.js
+- React Three Fiber
+- Drei
 
 ## Run Locally
 
-**Prerequisites:**  Node.js
+```bash
+git clone https://github.com/Kyoani55555/SDS1.git
+cd SDS1
+npm install
+npm run dev
+```
 
+Open the local URL shown in the terminal, usually:
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+```text
+http://localhost:5173
+```
+
+## Build
+
+```bash
+npm run build
+```
+
+The production files are generated in the `dist` directory.
+
+## Project Notes
+
+This project was iterated through AI-assisted development workflows. My work focused on understanding and modifying the code, refining interactive behavior, troubleshooting runtime issues, adapting the experience for mobile devices, and verifying GitHub Pages deployment.
+
+## License
+
+This project is intended for personal learning and portfolio demonstration.

@@ -1,20 +1,25 @@
 # SDS1 - Interactive 3D Christmas Tree
 
-An interactive 3D Christmas tree web experience built with TypeScript, React, and Three.js.
+A lightweight interactive 3D Christmas tree experience built with TypeScript, React, and Three.js.
 
-The project presents a responsive 3D scene with particle effects, camera interaction, and animated tree states. Users can interact with the scene to explore aggregated and dispersed particle effects.
+SDS1 is designed primarily for mobile interaction while remaining accessible on desktop browsers. The project presents a 3D Christmas tree composed of animated visual elements that can expand and regroup through user interaction.
 
 ## Live Demo
 
-[Live Demo](https://kyoani55555.github.io/SDS1/)
+[Open SDS1](https://kyoani55555.github.io/SDS1/)
 
-## Features
+## Highlights
 
-- Interactive 3D Christmas tree scene
-- Particle aggregation and dispersion animation
-- Camera orbit and view interaction
-- Responsive layout for desktop and mobile devices
-- Web deployment through GitHub Pages
+- Mobile-first interactive 3D experience with desktop browser support
+- Animated Christmas tree with expand and regroup states
+- Particle-style visual effects and scene transitions
+- Interactive camera and viewing controls
+- Responsive layout for different screen sizes
+- GitHub Pages deployment
+
+## Interaction
+
+Use the on-screen controls to switch the Christmas tree between its aggregated and dispersed visual states.
 
 ## Tech Stack
 
@@ -34,7 +39,7 @@ npm install
 npm run dev
 ```
 
-Open the local URL shown in the terminal, usually:
+Open the local address shown in the terminal, usually:
 
 ```text
 http://localhost:5173
@@ -46,12 +51,14 @@ http://localhost:5173
 npm run build
 ```
 
-The production files are generated in the `dist` directory.
+The production build is generated in the `dist` directory.
 
-## Project Notes
+## Development Notes
 
-This project was iterated through AI-assisted development workflows. My work focused on understanding and modifying the code, refining interactive behavior, troubleshooting runtime issues, adapting the experience for mobile devices, and verifying GitHub Pages deployment.
+This project was completed through an AI-assisted development workflow using Google AI Studio over two evening development sessions.
+
+My work focused on understanding and modifying the generated code, refining the tree interaction and visual behavior, troubleshooting runtime issues, adapting the interface for mobile devices, and verifying the GitHub Pages deployment.
 
 ## License
 
-This project is intended for personal learning and portfolio demonstration.
+This project is for personal learning and portfolio demonstration.
